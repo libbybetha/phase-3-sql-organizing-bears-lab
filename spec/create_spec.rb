@@ -4,7 +4,7 @@ describe 'creating bears table' do
   end
 
   before do
-    sql = File.read("lib/create.sql")
+    sql = File.read ("lib/create.sql")
     db.execute_batch(sql)
   end
 
